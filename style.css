@@ -24,7 +24,7 @@ body {
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
   display: flex;
-  background-color: #f0f0f0;
+  background-color: #885D2E;
 }
 
 /* 6. Improve media defaults */
@@ -89,14 +89,30 @@ h6 {
   flex: 1.2;
 }
 
-.left_third>img {
-  height: 1200px;
+/* .left_third>img { */
+/*   height: 1200px; */
+/* } */
+
+.background_egg {
+  position: absolute;
+  inset-inline-start: 80px;
+  inset-block-start: 180px;
+  height: auto;
+  max-width: 200px;
+  background-color: grey;
+  opacity: 0.4;
+  display: flex;
+}
+
+.background_egg>p {
+  color: white;
+  font-size: 128px;
 }
 
 .right_middle_third {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #B09265;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
