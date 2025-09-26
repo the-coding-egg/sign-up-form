@@ -99,7 +99,7 @@ h6 {
   inset-block-start: 180px;
   height: auto;
   max-width: 200px;
-  background-color: grey;
+  background-color: black;
   opacity: 0.4;
   display: flex;
 }
@@ -119,6 +119,7 @@ h6 {
 .right_middle_third>p {
   padding-left: 60px;
   padding-bottom: 10px;
+  padding-top: 10px;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: -0.08em;
@@ -144,8 +145,23 @@ h6 {
   display: flex;
   flex-direction: column;
   padding: 40px;
+  padding-top: 0px;
 }
 
 .create_account {
   width: 200px;
+  background-color: #334828;
 }
+
+.right_top_third {
+  padding: 45px;
+  padding-bottom: 0px;
+}
+
+.right_top_third>p {
+  padding:10px;
+  padding-right: 100px;
+  font-weight: bold;
+}
+
+
