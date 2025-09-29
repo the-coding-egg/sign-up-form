@@ -86,7 +86,7 @@ h6 {
 }
 
 .left_third {
-  flex: 1.2;
+  flex: 1.1;
 }
 
 /* .left_third>img { */
@@ -95,8 +95,7 @@ h6 {
 
 .background_egg {
   position: absolute;
-  inset-inline-start: 80px;
-  inset-block-start: 180px;
+  inset-block-start: 80px;
   height: auto;
   max-width: 200px;
   background-color: black;
@@ -139,6 +138,7 @@ h6 {
   flex-direction: column;
   padding-left: 60px;
   padding-bottom: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .right_bottom_third {
@@ -146,11 +146,28 @@ h6 {
   flex-direction: column;
   padding: 40px;
   padding-top: 0px;
+  padding-left: 60px;
 }
 
 .create_account {
   width: 200px;
   background-color: #334828;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 0 0px transparent;
+  height: 40px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.create_account:hover {
+  box-shadow: 0 0 0 2px #333;
+}
+
+.login {
+  text-decoration: none;
+  color: #334828;
 }
 
 .right_top_third {
